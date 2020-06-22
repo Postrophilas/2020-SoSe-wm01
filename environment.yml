@@ -1,0 +1,29 @@
+name: wm21
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7.3
+  - jupyter=1.0.0
+  - numpy=1.17.1
+  - matplotlib=3.1.1
+  - pandas=0.24.0 # dabest 0.2.7 requires exactly this old version of pandas.
+  - scipy=1.3.1
+  - pymc3=3.7
+  - seaborn=0.9.0
+  - imageio=2.6.1
+  - imageio-ffmpeg=0.3.0
+  - scikit-image=0.16.1
+  - scikit-learn=0.21.3 # 0.22 has distances in agglomerative clustering.
+  - graphviz=2.38.0
+  - nose=1.3.7
+  - pip=19.3.1
+  - pip:
+      - adskalman==0.3.11
+      - dabest==0.2.7
+      - showast==0.2.4
+      - biopython==1.74
+      - arviz==0.4.1
+      - requests==2.22.0
+# TODO: include k-medoids implementation?
+# TODO: include biopython and ability to read FASTA files, perform multiple sequence alignment, BLAST, etc.
+# TODO include yaml reader
