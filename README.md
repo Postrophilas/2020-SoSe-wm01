@@ -11,7 +11,25 @@ Biology, University of Freiburg.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/strawlab/2020-SoSe-wm01/master)
 
-## Run locally with anaconda
+## Run interactively at https://neowise.strawlab.org/
+
+For login, your username is your last name (lowercase and no spaces, so
+`von Graf` -> `vongraf`). Contact the instructors for your password.
+
+## This course on Ilias
+
+https://ilias.uni-freiburg.de/goto.php?target=crs_1691827&client_id=unifreiburg
+
+## The Python Tutor - extremely highly recommended
+
+http://pythontutor.com/
+
+## Some useful Python data science cheat sheets
+
+- https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+- http://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf
+
+## Run on your computer with anaconda
 
 ```
 conda env create -f environment.yml
@@ -19,22 +37,13 @@ source activate wm01
 jupyter notebook
 ```
 
-## This course on Ilias
-
-(TODO: add link)
-
-## Some useful Python data science cheat sheets
-
-- https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
-- http://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf
-
-## In case matplotlib in Windows shows DLL errors:
+### In case matplotlib in Windows shows DLL errors:
 
 When importing matplotlib, if you are getting an error like
 `ImportError: DLL load failed: Das angegebene Modul wurde nicht gefunden` or
 `ImportError: DLL load failed: The specified module could not be found`, do:
 
-1) Open a Terminal in your `wm21` Anaconda virtual environment.
+1) Open a Terminal in your `wm01` Anaconda virtual environment.
 2) Inside the terminal, type this line-by-line:
 
 ```
@@ -47,7 +56,7 @@ conda install matplotlib
 See [this](https://github.com/matplotlib/matplotlib/issues/14691#issuecomment-508552825)
 for related information.
 
-## Note for macOS users
+### Note for macOS users
 
 Before starting `jupyter notebook` from the command line, you may like to type:
 
